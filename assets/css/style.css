@@ -1,5 +1,9 @@
+
+body{ font-family: 'Roboto', sans-serif;
+}
+
 .bakg{
-    background-image: url(/assets/imges/Dark-Woods-Banner.jpg);
+    background-image: url(../imges/Dark-Woods-Banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
