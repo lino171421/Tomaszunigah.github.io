@@ -1,11 +1,21 @@
 
 body{ font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0% ;
+    width: 100%;
+
+}
+
+footer{
+    height: 90px;
 }
 
 .bakg{
-    background-image: url(../imges/Dark-Woods-Banner.jpg);
+    background-image: url(..//imges/Dark-Woods-Banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 550px;
 }

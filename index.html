@@ -18,28 +18,22 @@
 </head>
 
 
-<body class="bg-dark bg-gradient">
+<body class="bg-dark bg-gradient container-fluid">
 
-  <nav class="navbar bg-dark bg-gradient">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-        Tomy
-      </a>
-    </div>
-  </nav>
-
-<header class="bakg">
-  <div class="text-center py-4">
+<header class="bakg fw-bolder">
+  <div class="row text-center py-5">
     <h5 class="card-title h1">Tomás Zúñiga Henríquez</h5>
     <p class="card-text"> Hi! I've started my web-dev Journey.</p>
     <p class="card-text"> Desafio y Examen módulo Intro al desarrollo web</p>
   </div>
+  <div class ="profile text-center ">
+<img src="/assets/imges/portfolio.jpg" class="img-thumbnail" alt="perfil">
+  </div>
 </header>
  
   <!-- seccion cards-->
-  <div class=" container-fluid text-center bg-dark bg-gradient py-3">
-    <p class="h1">
+  <div class=" container-fluid text-center bg-dark  py-3">
+    <p class="py-1">
       <a class="btn btn-lg btn-outline-light " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Portfolio
       </a>
@@ -159,49 +153,57 @@
 
 
 <!--about me-->
-<section id="Acerca-de-mi" class="container text-center text-white-50 my-5">
+
+<div class=" container-fluid text-center bg-dark bg-gradient py-3">
+  <p class="py-1">
+    <a class="btn btn-lg btn-outline-light " data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">About me</a>
+  </p>
+  <div class="collapse" id="collapseExample3">
+    <section id="Acerca-de-mi" class="container text-center text-white-50 my-5">
 
 
 
-  <h2 class="display-3 fw-bold my-4">About me</h2>
-
-  <p class="my-4">
-Currently mastering skills and abilities in web development so i can quit my current job!</p>
-
-<p> Follow me at my <a href="https://github.com/Tomaszunigah"> github</a></p>
-
-
-  <div class="row">
-      <div class="col-12 col-md-4">
-          <i class="fa-brands fa-html5 fa-3x my-3"></i>
-          <i class="fa-brands fa-css3-alt fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold"> HTML & CSS</h3>
-          <p class="my-3">
-            Currently learning!
-
-          </p>
+      <h2 class="display-3 fw-bold my-4">About me</h2>
+    
+      <p class="my-4">
+    Currently mastering skills and abilities in web development so i can quit my current job!</p>
+    
+    <p> Follow me at my <a href="https://github.com/Tomaszunigah"> github</a></p>
+    
+    
+      <div class="row">
+          <div class="col-12 col-md-4">
+              <i class="fa-brands fa-html5 fa-3x my-3"></i>
+              <i class="fa-brands fa-css3-alt fa-3x my-3"></i>
+              <h3 class="my-3 fw-bold"> HTML & CSS</h3>
+              <p class="my-3">
+                Currently learning!
+    
+              </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-brands fa-bootstrap fa-3x my-3"></i>
+              <h3 class="my-3 fw-bold">Bootstrap</h3>
+              <p class="my-3">
+                Still improving!
+              </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-brands fa-js fa-3x my-3"></i>
+              <h3 class="my-3 fw-bold">JavaScript</h3>
+              <p class="my-3">
+                  Coming Soon!
+              </p>
+          </div>
       </div>
-      <div class="col-12 col-md-4">
-        <i class="fa-brands fa-bootstrap fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Bootstrap</h3>
-          <p class="my-3">
-            Still improving!
-          </p>
-      </div>
-      <div class="col-12 col-md-4">
-        <i class="fa-brands fa-js fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">JavaScript</h3>
-          <p class="my-3">
-              Coming Soon!
-          </p>
-      </div>
+    </section>
+   </div>
   </div>
-</section>
   
 <!--mail me-->
 
 <div class=" container-fluid text-center bg-secondary bg-gradient py-3">
-  <p>
+  <p class="">
     <a class="btn btn-lg btn-outline-light " data-bs-toggle="collapse" href="#mailme" role="button" aria-expanded="false" aria-controls="collapseExample">
       Mail me! 
     </a>
@@ -215,21 +217,25 @@ Currently mastering skills and abilities in web development so i can quit my cur
       </div>
       <div class="form-group row">
           <div class="col-9 mx-auto">
-            <input type="password" class="form-control" id="inputPassword3" placeholder="Correo electrónico">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Correo electrónico">
           </div>
        </div>
+       <div class="row col-9 mx-auto ">
+       <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="2"></textarea>
+      </div>
           <div class="form-group row pt-2">
             <div class="col">
               <button type="submit" class="btn btn-dark">Enviar</button>
             </div>
           </div>
       </div>
+      
     </div>
   </div>
 </div>
 
 <footer class="bg-light bg-gradient text-center text-black-50 p-4 mb-0">
-  <p class="mb-0">T.Z.<i class="fa-solid fa-registered"></i> 2022. Todos los derechos reservados. </p>
+  <p class="mb-0">T.Z.<i class="fa-solid fa-registered"></i> 2022. All rights reserved. </p>
 </footer>
 
 
